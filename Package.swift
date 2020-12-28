@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Crypto",
+    name: "OpenCrypto",
     dependencies: [
         // Module for generating random bytes and numbers.
         .Package(url: "https://github.com/vapor/random.git", majorVersion: 1),

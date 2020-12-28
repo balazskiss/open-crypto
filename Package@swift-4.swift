@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "Crypto",
+    name: "OpenCrypto",
     products: [
-        .library(name: "Crypto", targets: ["Crypto"]),
+        .library(name: "OpenCrypto", targets: ["OpenCrypto"]),
     ],
     dependencies: [
         // Module for generating random bytes and numbers.
@@ -14,6 +14,6 @@ let package = Package(
         .package(url: "https://github.com/vapor/ctls.git", .upToNextMajor(from: "1.1.0")),
     ],
     targets: [
-        .target(name: "Crypto", dependencies: ["CTLS", "Random"]),
+        .target(name: "OpenCrypto", dependencies: ["CTLS", "Random"]),
     ]
 )

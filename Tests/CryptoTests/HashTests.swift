@@ -1,5 +1,5 @@
 import XCTest
-import Crypto
+import OpenCrypto
 import CTLS
 
 class HashTests: XCTestCase {
